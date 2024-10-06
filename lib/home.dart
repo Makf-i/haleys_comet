@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => OrreryScreen(),
+                  builder: (context) => const OrreryScreen(),
                 ));
               },
               child: const Text("Solar System")),
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Colors.black.withOpacity(0), // Darker in the center
                                   Colors.transparent, // Transparent at the edges
                                 ],
-                                stops: [0.7, 1.0], // Control the transition
+                                stops: const [0.7, 1.0], // Control the transition
                               ),
                             ),
                           ),

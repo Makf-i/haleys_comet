@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:halleys_comet/services/neo_service.dart';
-import 'package:three_dart/three_dart.dart' as THREE;
-import 'dart:html' as html;
 
 
 class OrreryScreen extends StatefulWidget {
